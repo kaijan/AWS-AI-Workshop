@@ -27,9 +27,9 @@ In this tutorial, we will show you how to get started with [Amazon Polly](https:
 ![PollyConsole.png](./images/PollyConsole.png)
 
 6. To save the speech to a file, do one of the following:
-    - Choose __Save speech to MP3__.
-    - To change to a different file format, choose __Change file format__, choose the file format you want, and then choose __Change__.
-
+    - Choose __Download MP3__.
+    > To change to a different file format, choose __Change file format__, choose the file format you want, and then choose __Change__.
+    - You will get a file name __speech_yyyymmddxxxxxxxxx.mp3__.
 ### Automatic Speech Recognition with Amazon Transcribe
 
 1. Sign in to the __AWS Management Console__, and then open __AWS S3 console__.
@@ -55,6 +55,7 @@ In this tutorial, we will show you how to get started with [Amazon Polly](https:
 10. Enter the following information:
 - Transcription job name : __TestTranscribe__
 - Amazon S3 input URL : Paste the __link__ of __speech.mp3__
+> The location must be in the same region as the endpoint that you are calling.
 - Language : __English (US)__
 - Format : __mp3__
 - Channel identification : __Disabled__
@@ -74,7 +75,7 @@ In this tutorial, we will show you how to get started with [Amazon Polly](https:
 ![TranscribeCompleted.png](./images/TranscribeCompleted.png)
 
 14. Click __TestTranscribe__ job, in the __Transcription__ section, you will
-get the text transcribe from __speech.mp3__.
+get the text transcribe from __speech1.mp3__.
 
 ![TranscribeText.png](./images/TranscribeText.png)
 
@@ -82,7 +83,7 @@ get the text transcribe from __speech.mp3__.
 
 1. Sign in to the __AWS Management Console__, and then open __AWS Translate console__.
 
-2. Choose the __Try Amazon Translate__ tab.
+2. Choose the __Real-time translation__ tab.
 
 3. For __Target language__, choose __Spanish (es)__.
 
@@ -96,7 +97,7 @@ get the text transcribe from __speech.mp3__.
 
 1. Sign in to the __AWS Management Console__, and then open __AWS Comprehend console__.
 
-2. Choose the __Try Amazon Comprehend__ tab.
+2. Choose the __Real-time analysis__ tab.
 
 3. Paste the following into the __Input text__.
 
