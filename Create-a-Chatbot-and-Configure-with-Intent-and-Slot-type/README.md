@@ -108,7 +108,7 @@ copy the following Python code and paste it in the window.
 
 ![addCoffeeType.png](./images/addCoffeeType.png)
 
-8. Repeat __Step 1__ through __Step 4__ using the values in the following table:
+8. Repeat __Step 1__ through __Step 7__ using the values in the following table:
 
     <table>
         <tbody>
@@ -141,15 +141,15 @@ copy the following Python code and paste it in the window.
 ### Configure the Intent
 
 1. In the __Sample utterances__ filed, enter the follow strings, then click the __plus sign (+)__.
-    - I want to order coffee please.
-    - I want to order coffee.
-    - I want to order a {coffeeType}.
-    - I want to order a {size} {coffeeType}.
-    - I want to order a {size} {coffeeType} with {sugar} sugar.
-    - Can I get a coffee please.
-    - Can I get a {coffeeType} please.
-    - Can I get a {size} {coffeeType} please.
-    - Can I get a {size} {coffeeType} with {sugar} sugar please.
+    - I want to order coffee please
+    - I want to order coffee
+    - I want to order a {coffeeType}
+    - I want to order a {size} {coffeeType}
+    - I want to order a {size} {coffeeType} with {sugar} sugar
+    - Can I get a coffee please
+    - Can I get a {coffeeType} please
+    - Can I get a {size} {coffeeType} please
+    - Can I get a {size} {coffeeType} with {sugar} sugar please
 
 ![SampleUtterances.png](./images/SampleUtterances.png)
 
