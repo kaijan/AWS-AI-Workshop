@@ -29,7 +29,7 @@ In this tutorial, we will show you how to get started with [Amazon Polly](https:
 6. To save the speech to a file, do one of the following:
     - Choose __Download MP3__.
     > To change to a different file format, choose __Change file format__, choose the file format you want, and then choose __Change__.
-    - You will get a file name __speech_yyyymmddxxxxxxxxx.mp3__.
+    - You will get a file name __speech_TIMESTAMP.mp3__.
 ### Automatic Speech Recognition with Amazon Transcribe
 
 1. Sign in to the __AWS Management Console__, and then open __AWS S3 console__.
