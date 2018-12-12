@@ -25,12 +25,19 @@ Build a Serverless Facial Detect Application with AWS Lambda
 - Click __Create__.
 ![CreateBucket.jpg](./images/CreateBucket.jpg)
 
-- On the __Permissions__ Tab, click __Public Acesses settings__ .
+- Click the bucket you just created.
+
+- On the __Permissions__ Tab, choose __Public Acesses settings__ and click __Edit__.
 
 - Disable the following options.
+
 ![PublicAccessSetting.png](./images/PublicAccessSetting.png)
 
 - Click __Save__.
+
+- Type __confirm__ in the field for edit public access settings for this bucket, click __Confirm__.
+
+<img width="500" alt="EditPublicAccess.png" src="./images/EditPublicAccess.png">
 
 - On the __Permissions__ Tab, click __CORS configuration__ .
 ![CORSSetting.jpg](./images/CORSSetting.jpg)
@@ -145,7 +152,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 - On the __Permissions__ Tab, click __Bucket policy__ .
 ![BucketPolicy.jpg](./images/BucketPolicy.jpg)
 
-- Paste the following code : 
+- Paste the following code and replaced <your-bucket-name> with your bucket name to host web.
 
       {
           "Version": "2012-10-17",
