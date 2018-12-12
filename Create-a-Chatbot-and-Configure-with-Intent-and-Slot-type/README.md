@@ -23,7 +23,7 @@ This lab use [Amazon Lex](https://aws.amazon.com/tw/lex/) and [Amazon Lambda](ht
 - Role : __Create new role from template(s)__
 - Role name : __OrderCoffeeRole__
 
-![LambdaSetting.png](./images/LambdaSetting.png)
+<img width="500" alt="LambdaSetting.png" src="./images/LambdaSetting.png">
 
 5. Click __Create function__.
 
@@ -82,7 +82,7 @@ copy the following Python code and paste it in the window.
 
 4. Choose __Add__.
 
-![OrderCoffeeIntent.png](./images/OrderCoffeeIntent.png)
+<img width="500" alt="OrderCoffeeIntent.png" src="./images/OrderCoffeeIntent.png">
 
 ### Create Slot Types 
 1. In the left menu, choose the __plus sign (+)__ next to __Slot types__.
@@ -96,7 +96,7 @@ copy the following Python code and paste it in the window.
 
 - Value : __Latte, Mocha, Macchiato__.
 
-![CoffeeSlotType.png](./images/CoffeeSlotType.png)
+<img width="500" alt="CoffeeSlotType.png" src="./images/CoffeeSlotType.png">
 
 4. Click __Add slot to intent__.
 
@@ -157,11 +157,11 @@ copy the following Python code and paste it in the window.
 
 3. Choose __OrderCoffeeProcessor__.
 
-![TriggerLambda.png](./images/TriggerLambda.png)
+<img width="500" alt="TriggerLambda.png" src="./images/PTriggerLambda.png">
 
 > Note : If the __Add permission to Lambda function__ dialog box is shown, choose __OK__ to give the OrderCoffee intent permission to call the OrderCoffeeProcessor Lambda function.
 
-![PermissionLambda.png](./images/PermissionLambda.png)
+<img width="500" alt="PermissionLambda.png" src="./images/PermissionLambda.png">
 
 4. Click __Save Intent__.
 
@@ -186,7 +186,7 @@ copy the following Python code and paste it in the window.
 
 2. To test the bot, in the __Test bot__ window, start communicating with your Amazon Lex bot.
 
-![TestBot.png](./images/TestBot.png)
+<img width="500" alt="TestBot.png" src="./images/TestBot.png">
 
 ## Conclusion
 Congratulations! We now have learned how to:
