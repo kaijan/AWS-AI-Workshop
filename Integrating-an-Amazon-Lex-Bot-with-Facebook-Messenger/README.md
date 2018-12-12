@@ -16,13 +16,13 @@ This lab use [Amazon Lex](https://aws.amazon.com/tw/lex/) deploy the bot to Face
 ### Create a Facebook Page
 1. Log in your Facebook Account, click __Create a Page__ in the top right hand corner. 
 
-    ![CreateFBPage.png](./images/CreateFBPage.png)
+    <img width="500" alt="CreateFBPage.png" src="./images/CreateFBPage.png">
 
 2. Choose __Business or Brand__, and then click __Get Started__.
 
 3. In the __Page Name__ dialog box, type the __Test-OrderCoffeeBot__.
 
-    ![TypePageName.png](./images/TypePageName.png)
+    <img width="500" alt="TypePageName.png" src="./images/TypePageName.png">
 
 4. Click __Continue__.
 
@@ -57,7 +57,7 @@ This lab use [Amazon Lex](https://aws.amazon.com/tw/lex/) deploy the bot to Face
 - App Name : __CoffeeBot__ 
 - Contact Email : your email
 
-    ![AppSetting.jpg](./images/AppSetting.jpg)
+    <img width="500" alt="AppSetting.jpg" src="./images/AppSetting.jpg">
 
 5. Click __Next__.
 
@@ -91,7 +91,7 @@ This lab use [Amazon Lex](https://aws.amazon.com/tw/lex/) deploy the bot to Face
 
 4. In the __Publish CoffeeOrderingBot__ dialog box, enter __CoffeeBot__ for __Create an alias__ filed.
 
-![CreateAlias.png](./images/CreateAlias.png)
+<img width="500" alt="CreateAlias.png" src="./images/CreateAlias.png">
 
 5. Click __Publish__.
 
@@ -106,7 +106,7 @@ This lab use [Amazon Lex](https://aws.amazon.com/tw/lex/) deploy the bot to Face
 - Page Access Token : paste __Page Access Token__  
 - App Secret Key :  paste __App Secret__  
 
-    ![ChannelSetting.jpg](./images/ChannelSetting.jpg)
+    <img width="500" alt="ChannelSetting.jpg" src="./images/ChannelSetting.jpg">
 
 8. Click __Activate__.
 
@@ -124,7 +124,7 @@ This lab use [Amazon Lex](https://aws.amazon.com/tw/lex/) deploy the bot to Face
 
 14. Click __Verify and Save__.
 
-    ![WebhookSetup.jpg](./images/WebhookSetup.jpg)
+    <img width="500" alt="WebhookSetup.jpg" src="./images/WebhookSetup.jpg">
 
 15. Select the page you created before, and click __Subscribe__.
 
@@ -133,7 +133,7 @@ This lab use [Amazon Lex](https://aws.amazon.com/tw/lex/) deploy the bot to Face
 ### Test your Chatbot On Messenger 
 1. Open your Messenger and chat with it.
 
-    ![Messenger.png](./images/Messenger.png)
+    <img width="500" alt="Messenger.png" src="./images/Messenger.png">
 
 ## Conclusion
 Congratulations! We now have learned how to:
