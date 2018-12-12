@@ -152,7 +152,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 - On the __Permissions__ Tab, click __Bucket policy__ .
 ![BucketPolicy.jpg](./images/BucketPolicy.jpg)
 
-- Paste the following code and replaced <your-bucket-name> with your bucket name to host web.
+- Paste the following code and replaced **`<your-bucket-name>`** with your bucket name to host web.
 
       {
           "Version": "2012-10-17",
@@ -367,7 +367,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 
 - If you success to upload, it will show the message.
 
-![SuccessUpload.png](./images/SuccessUpload.png)
+<img width="500" alt="SuccessUpload.png" src="./images/SuccessUpload.png">
 
 - The result of identify face will show below the button.
 
