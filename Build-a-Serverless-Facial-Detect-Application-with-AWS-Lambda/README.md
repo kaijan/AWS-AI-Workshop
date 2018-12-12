@@ -350,7 +350,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 - Back to the S3 bucket you created in previous section and upload these files by dragging them into the upload window. These files must be on the same layer of index.html file. It should be like as below:
 ![S3Folder.png](./images/S3Folder.png)
 
-- Reload the web page and click the __Borowse__ button to choose image.
+- Reload the web page and click the __Borowse__ button to choose __test.jpeg__ in this repository.
 
 ![PreviewImage.png](./images/PreviewImage.png)
 
