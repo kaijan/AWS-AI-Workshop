@@ -65,7 +65,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 
 - On the service menu, click __Cognito__.
 
-- Choose __Manage Federated Identities__.
+- Choose __Manage Identity Pools__.
 
 - Choose __Create new identity pool__.
 
@@ -74,11 +74,11 @@ Build a Serverless Facial Detect Application with AWS Lambda
 - Select __Enable access to unauthenticated identities__ from the __Unauthenticated identities__ collapsible section.
 ![CognitoCreate.png](./images/CognitoCreate.png)
 
-- Click __Create__.
+- Click __Create Pool__.
 
 - Click __View Details__ to check IAM Role data.
 
-- In the Unauthenticated Role, Click __View Policy Document__.
+- In the __Unauthenticated Role__, Click __View Policy Document__.
 
 <img width="500" alt="ViewUnauthRolePolicy.png" src="./images/ViewUnauthRolePolicy.png">
 
@@ -142,12 +142,17 @@ Build a Serverless Facial Detect Application with AWS Lambda
 - Click __Create__.
 ![CreateBucket.jpg](./images/CreateBucket.jpg)
 
-- On the __Permissions__ Tab, click __Public Acesses settings__ .
+- On the __Permissions__ Tab, choose __Public Acesses settings__ and click __Edit__.
 
 - Disable the following options.
+
 ![PublicAccessSetting.png](./images/PublicAccessSetting.png)
 
 - Click __Save__.
+
+- Type __confirm__ in the field for edit public access settings for this bucket, click __Confirm__.
+
+<img width="500" alt="EditPublicAccess.png" src="./images/EditPublicAccess.png">
 
 - On the __Permissions__ Tab, click __Bucket policy__ .
 ![BucketPolicy.jpg](./images/BucketPolicy.jpg)
@@ -169,7 +174,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 
 - Click __Save__.
 
-- Download the __index.html__ file in this Github repository first then click __Add files__.
+- Download the __index.html__ file in this Github repository first then click __Uplaod__ and __Add files__.
 
 - Select and add the __index.html__ file which you downloaded.
 
@@ -183,7 +188,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 
 - Select __Use this bucket to host a website__.
 
--  Type __index.html__ for the index document.
+-  Type __index.html__ for the index document and click __Save__.
 
 <img width="500" alt="SetIndexHtml.jpg" src="./images/SetIndexHtml.jpg">
 
@@ -305,7 +310,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 
 - Type __get-identify-result__ in the __Resource Name__.
 
-- Make sure __Enable API Gateway CORS is enabled__, then click Create Resource.
+- Make sure __Enable API Gateway CORS is enabled__, then click __Create Resource__.
 ![CreateAPIResource.png](./images/CreateAPIResource.png)
 
 - After resource being created, click __Actions__ and select __Create Method__ to add method.
