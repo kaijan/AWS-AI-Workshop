@@ -264,7 +264,7 @@
             }
         };
 
-        apigClient.postItemsPost(params, body, additionalParams).then(function(result) {
+        apigClient.getIdentifyResultPost(params, body, additionalParams).then(function(result) {
             console.log(result);
             var faceMessage = JSON.stringify(result.data);
             if (faceMessage.includes("InvalidParameterException")) {
