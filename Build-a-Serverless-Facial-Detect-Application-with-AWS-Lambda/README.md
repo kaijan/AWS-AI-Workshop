@@ -355,7 +355,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 
 - The browser would ask you to confirm download a zip file named as __javascript_TIMESTAMP.zip__.
 
-<img width="500" alt="SDKFolder.png" src="./images/SDKGeneration.png">
+<img width="500" alt="SDKGeneration.png" src="./images/SDKGeneration.png">
 
 - Save and unzip the zip file, after entering the folder, there would be files show as below:
 
