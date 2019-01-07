@@ -29,7 +29,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 
 - On the __Permissions__ Tab, choose __Public Acesses settings__ and click __Edit__.
 
-- Disable the following options.
+- __Disable__ the following options.
 
 ![PublicAccessSetting.png](./images/PublicAccessSetting.png)
 
@@ -264,7 +264,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 
 - Back to lambda function, then click __Create Function__.
 
-- After creating the lambda function, copy the following code and paste into the Lambda code field, then replace **`<your face collection id>`** with your face collection id.
+- After creating the lambda function, copy the following code and paste into the Lambda code field, then replace **`<your face collection name>`** with your face collection name.
 
       import json
       import boto3
@@ -355,6 +355,9 @@ Build a Serverless Facial Detect Application with AWS Lambda
 
 - The browser would ask you to confirm download a zip file named as __javascript_TIMESTAMP.zip__.
 
+<img width="500" alt="SDKFolder.png"
+src="./images/SDKGeneration.png">
+
 - Save and unzip the zip file, after entering the folder, there would be files show as below:
 
 <img width="500" alt="SDKFolder.png" src="./images/SDKFolder.png">
@@ -362,7 +365,7 @@ Build a Serverless Facial Detect Application with AWS Lambda
 - Back to the S3 bucket you created in previous section and upload these files by dragging them into the upload window. These files must be on the same layer of index.html file. It should be like as below:
 ![S3Folder.png](./images/S3Folder.png)
 
-- Reload the web page and click the __Borowse__ button to choose __test.jpeg__ in this repository.
+- Reload the web page and click the __Browse__ button to choose __test.jpeg__ in this repository.
 
 ![PreviewImage.png](./images/PreviewImage.png)
 

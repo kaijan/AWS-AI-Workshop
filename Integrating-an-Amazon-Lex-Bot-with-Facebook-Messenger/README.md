@@ -131,7 +131,7 @@ This lab use [Amazon Lex](https://aws.amazon.com/tw/lex/) deploy the bot to Face
     ![SubscribeWebhook.png](./images/SubscribeWebhook.png)
 
 ### Test your Chatbot On Messenger 
-1. Open your Messenger and chat with it.
+1. Open your Messenger on smartphone and chat with it.
 
     <img width="500" alt="Messenger.png" src="./images/Messenger.png">
 
