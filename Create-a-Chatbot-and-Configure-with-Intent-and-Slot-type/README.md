@@ -30,32 +30,34 @@ This lab use [Amazon Lex](https://aws.amazon.com/tw/lex/) and [Amazon Lambda](ht
 6. In the __Function code__ section, 
 copy the following Python code and paste it in the window.
 
-       import json
+```
+import json
 
-       def lambda_handler(event, context):
-        # get slots value
-        slots = event['currentIntent']['slots']
-        coffeeType = slots['coffeeType']
-        size = slots['size']
-        sugar = slots['sugar']
-            
-        sess_attr = event['sessionAttributes']
-            
-        # bot response setting
-        msg="Okay, I have ordered your {0} {1} with {2} sugar."
-        msg = msg.format(size,coffeeType,sugar)
-            
-        return {
-                'sessionAttributes': sess_attr,
-                'dialogAction': {
-                    'type': 'Close',
-                    'fulfillmentState': 'Fulfilled',
-                    "message": {
-                    "contentType": "PlainText",
-                    "content": msg
-                    }
+def lambda_handler(event, context):
+    # get slots value
+    slots = event['currentIntent']['slots']
+    coffeeType = slots['coffeeType']
+    size = slots['size']
+    sugar = slots['sugar']
+    
+    sess_attr = event['sessionAttributes']
+    
+    # bot response setting
+    msg="Okay, I have ordered your {0} {1} with {2} sugar."
+    msg = msg.format(size,coffeeType,sugar)
+    
+    return {
+            'sessionAttributes': sess_attr,
+            'dialogAction': {
+                'type': 'Close',
+                'fulfillmentState': 'Fulfilled',
+                "message": {
+                "contentType": "PlainText",
+                "content": msg
                 }
             }
+        }
+```
 
 7. Choose __Save__.
 
