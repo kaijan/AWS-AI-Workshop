@@ -38,13 +38,13 @@ copy the following Python code and paste it in the window.
         coffeeType = slots['coffeeType']
         size = slots['size']
         sugar = slots['sugar']
-            
+        
         sess_attr = event['sessionAttributes']
-            
+        
         # bot response setting
         msg="Okay, I have ordered your {0} {1} with {2} sugar."
         msg = msg.format(size,coffeeType,sugar)
-            
+        
         return {
                 'sessionAttributes': sess_attr,
                 'dialogAction': {
@@ -156,7 +156,7 @@ copy the following Python code and paste it in the window.
 
 3. Choose __OrderCoffeeProcessor__.
 
-<img width="500" alt="TriggerLambda.png" src="./images/PTriggerLambda.png">
+<img width="500" alt="TriggerLambda.png" src="./images/TriggerLambda.png">
 
 > Note : If the __Add permission to Lambda function__ dialog box is shown, choose __OK__ to give the OrderCoffee intent permission to call the OrderCoffeeProcessor Lambda function.
 
