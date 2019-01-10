@@ -62,15 +62,17 @@ copy the following Python code and paste it in the window.
 ### Build your First Chat Bot
 1. On the __Service__ menu, click __Lex__.
 
-2. Click __Custom bot__.
+2. Click __Create__.
 
-3. Enter following informations:
+3. Click __Custom bot__.
+
+4. Enter following informations:
 - Bot name : __CoffeeOrderingBot__
 - Output voice : __Joanna__
 - Session timeout : __5 min__
 - COPPA : __Yes__
 
-4. Click __Create__.
+5. Click __Create__.
 
 ### Create an Intent
 1. In the Amazon Lex console, choose the __plus sign (+)__ next to __Intents__.
